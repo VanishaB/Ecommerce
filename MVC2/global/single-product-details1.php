@@ -13,11 +13,11 @@
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
+    <link rel="icon" href="front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/css/style.css">
+    <link rel="stylesheet" href="front/templates/css/core-style.css">
+    <link rel="stylesheet" href="front/templates/css/style.css">
 </head>
 
 <body>
@@ -45,27 +45,27 @@
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
                                        <li class="title">Plantes</li>
-                                        <li><a href="../global/single-product-details1.php">Absynth</a></li>
-                                        <li><a href="../global/single-product-details2.php">Ashwagandha ginseng</a></li>
-                                        <li><a href="../global/single-product-details3.php">Bardane</a></li>
-                                        <li><a href="../global/single-product-details4.php">Bleuet</a></li>
-                                        <li><a href="../global/single-product-details5.php">Cannelle de chine</a></li>
+                                        <li><a href="global/single-product-details1.php">Absynth</a></li>
+                                        <li><a href="global/single-product-details2.php">Ashwagandha ginseng</a></li>
+                                        <li><a href="global/single-product-details3.php">Bardane</a></li>
+                                        <li><a href="global/single-product-details4.php">Bleuet</a></li>
+                                        <li><a href="global/single-product-details5.php">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="../global/single-product-details6.php">Djaoui noir</a></li>
-                                        <li><a href="../global/single-product-details7.php">Encens Tibetain</a></li>
-                                        <li><a href="../global/single-product-details8.php">Gomme d'elemi</a></li>
-                                        <li><a href="../global//single-product-details9.php">Marie qui defait les noeuds</a></li>
-                                        <li><a href="../global/single-product-details10.php">Oliban du souda</a></li>
+                                        <li><a href="global/single-product-details6.php">Djaoui noir</a></li>
+                                        <li><a href="global/single-product-details7.php">Encens Tibetain</a></li>
+                                        <li><a href="global/single-product-details8.php">Gomme d'elemi</a></li>
+                                        <li><a href="global//single-product-details9.php">Marie qui defait les noeuds</a></li>
+                                        <li><a href="global/single-product-details10.php">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="../global/single-product-details11.php">Copal</a></li>
-                                        <li><a href="../global/single-product-details12.php">Olibanum</a></li>
-                                        <li><a href="../global/single-product-details13.php">Oliban</a></li>
-                                        <li><a href="../global/single-product-details14.php">Myrrhe</a></li>
-                                        <li><a href="../global/single-product-details15.php">Colophane</a></li>
+                                        <li><a href="global/single-product-details11.php">Copal</a></li>
+                                        <li><a href="global/single-product-details12.php">Olibanum</a></li>
+                                        <li><a href="global/single-product-details13.php">Oliban</a></li>
+                                        <li><a href="global/single-product-details14.php">Myrrhe</a></li>
+                                        <li><a href="global/single-product-details15.php">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/images/dribbble_juvamed.png" alt="">
@@ -74,8 +74,8 @@
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="../global/accueil.php">Accueil</a></li>
-                                    <li><a href="../global/allproducts.php">Produits</a></li>
+                                    <li><a href="global/accueil.php">Accueil</a></li>
+                                    <li><a href="global/allproducts.php">Produits</a></li>
                                     <li><a href="">Blog</a></li>
                                 </ul>
                             </li>
@@ -98,15 +98,15 @@
                 </div>
                 <!-- Favorite Area -->
                 <div class="favourite-area">
-                    <a href="#"><img src="../front/templates/img/core-img/heart.svg" alt=""></a>
+                    <a href="#"><img src="front/templates/img/core-img/heart.svg" alt=""></a>
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">
-                    <a href="#"><img src="../front/templates/img/core-img/user.svg" alt=""></a>
+                    <a href="#"><img src="front/templates/img/core-img/user.svg" alt=""></a>
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    <a href="#" id="essenceCartBtn"><img src="front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
                 </div>
             </div>
 
@@ -121,7 +121,7 @@
 
         <!-- Cart Button -->
         <div class="cart-button">
-            <a href="#" id="rightSideCart"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
+            <a href="#" id="rightSideCart"><img src="front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
         </div>
 
         <div class="cart-content d-flex">
@@ -131,7 +131,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/absynth.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/absynth.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -146,7 +146,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -161,7 +161,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/resine.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/resine.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -198,8 +198,8 @@
         <!-- Single Product Thumb -->
         <div class="single_product_thumb clearfix">
             <div class="product_thumbnail_slides owl-carousel">
-                <img src="../front/templates/img/plantes/absynth.jpg" alt="Absinthe">
-                <img src="../front/templates/img/plantes/absynth.jpg" alt="Absinthe">
+                <img src="front/templates/img/plantes/absynth.jpg" alt="Absinthe">
+                <img src="front/templates/img/plantes/absynth.jpg" alt="Absinthe">
             </div>
         </div>
 
@@ -255,7 +255,7 @@ L'espèce type "Artemisia maritima" a donné de nombreuses variétés, dont le s
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="../global/allproducts.php">Boutique</a></li>
+                                <li><a href="global/allproducts.php">Boutique</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -321,17 +321,17 @@ L'espèce type "Artemisia maritima" a donné de nombreuses variétés, dont le s
     <!-- ##### Footer Area End ##### -->
 
      <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="../front/templates/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="front/templates/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="../front/templates/js/popper.min.js"></script>
+    <script src="front/templates/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="../front/templates/js/bootstrap.min.js"></script>
+    <script src="front/templates/js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="../front/templates/js/plugins.js"></script>
+    <script src="front/templates/js/plugins.js"></script>
     <!-- Classy Nav js -->
-    <script src="../front/templates/js/classy-nav.min.js"></script>
+    <script src="front/templates/js/classy-nav.min.js"></script>
     <!-- Active js -->
-    <script src="../front/templates/js/active.js"></script>
+    <script src="front/templates/js/active.js"></script>
 
 </body>
 

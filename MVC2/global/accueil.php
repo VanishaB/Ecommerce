@@ -13,11 +13,11 @@
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
+    <link rel="icon" href="front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/css/style.css">
+    <link rel="stylesheet" href="front/templates/css/core-style.css">
+    <link rel="stylesheet" href="front/templates/css/style.css">
 
 </head>
 
@@ -28,7 +28,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="#"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand"><img src="front/templates/img/core-img/logo.png" alt="logo"></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -42,46 +42,46 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul>
-                            <li><a href="../global/accueil.php">Boutique</a>
+                            <li><a href="<?php echo $GLOBALS["app_url"] ?>index.php">Boutique</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
                                        <li class="title">Plantes</li>
-                                        <li><a href="../global/single-product-details1.php">Absynth</a></li>
-                                        <li><a href="../global/single-product-details2.php">Ashwagandha ginseng</a></li>
-                                        <li><a href="../global/single-product-details3.php">Bardane</a></li>
-                                        <li><a href="../global/single-product-details4.php">Bleuet</a></li>
-                                        <li><a href="../global/single-product-details5.php">Cannelle de chine</a></li>
+                                        <li><a href="global/single-product-details1.php">Absinthe</a></li>
+                                        <li><a href="global/single-product-details2.php">Ashwagandha ginseng</a></li>
+                                        <li><a href="global/single-product-details3.php">Bardane</a></li>
+                                        <li><a href="global/single-product-details4.php">Bleuet</a></li>
+                                        <li><a href="global/single-product-details5.php">Cannelle de chine</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Encens</li>
-                                        <li><a href="../global/single-product-details6.php">Djaoui noir</a></li>
-                                        <li><a href="../global/single-product-details7.php">Encens Tibetain</a></li>
-                                        <li><a href="../global/single-product-details8.php">Gomme d'elemi</a></li>
-                                        <li><a href="../global//single-product-details9.php">Marie qui defait les noeuds</a></li>
-                                        <li><a href="../global/single-product-details10.php">Oliban du souda</a></li>
+                                        <li><a href="global/single-product-details6.php">Djaoui noir</a></li>
+                                        <li><a href="global/single-product-details7.php">Encens Tibetain</a></li>
+                                        <li><a href="global/single-product-details8.php">Gomme d'elemi</a></li>
+                                        <li><a href="global//single-product-details9.php">Marie qui defait les noeuds</a></li>
+                                        <li><a href="global/single-product-details10.php">Oliban du souda</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Résines</li>
-                                        <li><a href="../global/single-product-details11.php">Copal</a></li>
-                                        <li><a href="../global/single-product-details12.php">Olibanum</a></li>
-                                        <li><a href="../global/single-product-details13.php">Oliban</a></li>
-                                        <li><a href="../global/single-product-details14.php">Myrrhe</a></li>
-                                        <li><a href="../global/single-product-details15.php">Colophane</a></li>
+                                        <li><a href="global/single-product-details11.php">Copal</a></li>
+                                        <li><a href="global/single-product-details12.php">Olibanum</a></li>
+                                        <li><a href="global/single-product-details13.php">Oliban</a></li>
+                                        <li><a href="global/single-product-details14.php">Myrrhe</a></li>
+                                        <li><a href="global/single-product-details15.php">Colophane</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
-                                        <img src="../front/templates/img/images/dribbble_juvamed.png" alt="">
+                                        <img src="front/templates/img/images/dribbble_juvamed.png" alt="">
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="../global/accueil.php">Pages</a>
+                            <li><a href="global/accueil.php">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="../global/accueil.php">Accueil</a></li>
-                                    <li><a href="../global/allproducts.php">Produits</a></li>
+                                    <li><a href="global/accueil.php">Accueil</a></li>
+                                    <li><a href="global/allproducts.php">Produits</a></li>
                                     <li><a href="">Blog</a></li> <!--TODO : page blog-->
                                 </ul>
                             </li>
-                            <li><a href="../modeles/inscription.php">S'inscrire</a></li> <!--TODO : page d'inscription-->
-                            <li><a href="../modeles/membres.php">Se connecter</a></li>  <!--TODO : page de connexion-->
+                            <li><a href="modeles/inscription.php">S'inscrire</a></li> <!--TODO : page d'inscription-->
+                            <li><a href="modeles/membres.php">Se connecter</a></li>  <!--TODO : page de connexion-->
                         </ul>
                     </div>
                     <!-- Nav End -->
@@ -99,15 +99,39 @@
                 </div>
                 <!-- TODO : Favorite Area -->
                 <div class="favourite-area">
-                    <a href="#"><img src="../front/templates/img/core-img/heart.svg" alt=""></a>
+                    <a href="#"><img src="front/templates/img/core-img/heart.svg" alt=""></a>
                 </div>
                 <!-- TODO : User Login Info -->
                 <div class="user-login-info">
-                    <a href="#"><img src="../front/templates/img/core-img/user.svg" alt=""></a>
+
+                  <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="front/templates/img/core-img/user.svg" alt=""></a>
+                    <div class="dropdown-menu">
+                  <?php
+                  if(isset($_SESSION['email'])){
+                    echo '  <a href="#">'.$_SESSION['login'].'</a>
+                    <a href="">LogOut</a>';
+
+                    if($_SESSION['admin'] == 'yes'){
+                      echo '<a href="/sheekstore/e_commerce/index.php/admin">Administration</a>';
+
+                    }
+
+                  }else{
+                    echo '<a href="#" data-toggle="modal" data-target="#signin">SignIn</a>
+                    <a href="#" data-toggle="modal" data-target="#signup">SignUp</a>';
+                  }
+                  ?>
+
+          </div>
+        </div>
+
+      </div>
+                    <a href="#"><img src="front/templates/img/core-img/user.svg" alt=""></a>
                 </div>
                 <!-- TODO : Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    <a href="#" id="essenceCartBtn"><img src="front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
                 </div>
             </div>
 
@@ -122,7 +146,7 @@
 
         <!-- Cart Button -->
         <div class="cart-button">
-            <a href="#" id="rightSideCart"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
+            <a href="#" id="rightSideCart"><img src="front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
         </div>
 
         <div class="cart-content d-flex">
@@ -132,12 +156,12 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/absynth.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/absynth.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
                             <span class="badge">Mediplante</span>
-                            <h6>Absynthe en vrac</h6>
+                            <h6>Absinthe en vrac</h6>
                             <p class="size">Quantité: 100g</p>
                             <p class="price">10.00€</p>
                         </div>
@@ -147,7 +171,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -162,7 +186,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/resine.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/resine.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -194,14 +218,14 @@
     <!-- ##### Right Side Cart End ##### -->
 
     <!-- ##### Welcome Area Start ##### -->
-    <section class="welcome_area bg-img background-overlay" style="background-image: url(../front/templates/img/images/plant-background.jpg);">
+    <section class="welcome_area bg-img background-overlay" style="background-image: url(front/templates/img/images/plant-background.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="hero-content">
                         <h2>Mediplantes</h2>
                         <h6>Plantes thérapeutiques naturelles</h6><br><br />
-                        <a href="../global/allproducts.php" class="btn essence-btn">Voir nos produits</a>
+                        <a href="global/allproducts.php" class="btn essence-btn">Voir nos produits</a>
                     </div>
                 </div>
             </div>
@@ -215,25 +239,25 @@
             <div class="row justify-content-center">
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(../front/templates/img/images/AloeVera.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(front/templates/img/images/AloeVera.jpg);">
                         <div class="catagory-content">
-                            <a href="../global/allproducts.php">Plantes</a>
+                            <a href="global/allproducts.php">Plantes</a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(../front/templates/img/images/encens-a-bruler-djaoui-noir.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(front/templates/img/images/encens-a-bruler-djaoui-noir.jpg);">
                         <div class="catagory-content">
-                            <a href="../global/allproducts.php">Encens</a>
+                            <a href="global/allproducts.php">Encens</a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(../front/templates/img/images/resine.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(front/templates/img/images/resine.jpg);">
                         <div class="catagory-content">
-                            <a href="../global/allproducts.php">Résines</a>
+                            <a href="global/allproducts.php">Résines</a>
                         </div>
                     </div>
                 </div>
@@ -247,12 +271,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="cta-content bg-img background-overlay" style="background-image: url(../front/templates/img/images/.jpg);">
+                    <div class="cta-content bg-img background-overlay" style="background-image: url(front/templates/img/images/.jpg);">
                         <div class="h-100 d-flex align-items-center justify-content-end">
                             <div class="cta--text">
                                 <h6>-50%</h6>
                                 <h2>Ce sont les soldes, nombreux produits en promotion !</h2>
-                                <a href="../global/allproducts.php" class="btn essence-btn">J'y vais!</a>
+                                <a href="global/allproducts.php" class="btn essence-btn">J'y vais!</a>
                             </div>
                         </div>
                     </div>
@@ -283,9 +307,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="../front/templates/img/images/absynth.jpg" alt="">
+                                <img src="front/templates/img/images/absynth.jpg" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="../front/templates/img/images/anis-vert.jpg" alt="">
+                                <img class="hover-img" src="front/templates/img/images/anis-vert.jpg" alt="">
                                 <!-- Favourite -->
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
@@ -313,9 +337,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="../front/templates/img/images/bleuet-petales-bio.jpg" alt="">
+                                <img src="front/templates/img/images/bleuet-petales-bio.jpg" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="../front/templates/img/images/basilic-flocon-bio.jpg" alt="">
+                                <img class="hover-img" src="front/templates/img/images/basilic-flocon-bio.jpg" alt="">
                                 <!-- Favourite -->
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
@@ -343,9 +367,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="../front/templates/img/images/encens-a-bruler-marie.jpg" alt="">
+                                <img src="front/templates/img/images/encens-a-bruler-marie.jpg" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="../front/templates/img/images/encens-a-bruler-encens-tibetain.jpg" alt="">
+                                <img class="hover-img" src="front/templates/img/images/encens-a-bruler-encens-tibetain.jpg" alt="">
 
                                 <!-- Product Badge -->
                                 <div class="product-badge offer-badge">
@@ -379,9 +403,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="../front/templates/img/images/resine.jpg" alt="">
+                                <img src="front/templates/img/images/resine.jpg" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="../front/templates/img/images/plante_resine_encens-oliban.jpg" alt="">
+                                <img class="hover-img" src="front/templates/img/images/plante_resine_encens-oliban.jpg" alt="">
 
                                 <!-- Product Badge -->
                                 <div class="product-badge new-badge">
@@ -452,7 +476,7 @@
                     <div class="single_widget_area d-flex mb-30">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="#"><img src="../front/templates/img/core-img/favicon.ico" alt=""></a>
+                            <a href="#"><img src="front/templates/img/core-img/favicon.ico" alt=""></a>
                         </div>
                         <!-- Footer Menu -->
                         <div class="footer_menu">
@@ -523,17 +547,17 @@
     <!-- ##### Footer Area End ##### -->
 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="../front/templates/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="./front/templates/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="../front/templates/js/popper.min.js"></script>
+    <script src="./front/templates/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="../front/templates/js/bootstrap.min.js"></script>
+    <script src="./front/templates/js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="../front/templates/js/plugins.js"></script>
+    <script src="./front/templates/js/plugins.js"></script>
     <!-- Classy Nav js -->
-    <script src="../front//templates/js/classy-nav.min.js"></script>
+    <script src="./front//templates/js/classy-nav.min.js"></script>
     <!-- Active js -->
-    <script src="../front/templates/js/active.js"></script>
+    <script src="./front/templates/js/active.js"></script>
 
 </body>
 
