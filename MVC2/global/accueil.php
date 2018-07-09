@@ -457,9 +457,9 @@
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="../global/accueil.php">Boutique</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a href="accueil.php">Boutique</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>

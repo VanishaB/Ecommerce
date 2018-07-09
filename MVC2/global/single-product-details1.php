@@ -216,10 +216,11 @@ Les fleurs visiblent de juillet à août, jaune verdâtre, sont petites mais tr�
 L'espèce type "Artemisia maritima" a donné de nombreuses variétés, dont le semen-contra, utilisé comme vermifuge.  </p>
 
             <!-- Form -->
-            <form class="cart-form clearfix" method="post">
+            <form class="cart-form clearfix" method="post" name="add-to-cart" target="add-to-cart.php">
+              <input type="hidden" name="uid" value="<?php echo $uid; ?>"/>
                 <!-- Select Box -->
                 <div class="select-box d-flex mt-50 mb-30">
-                    <select name="select" id="productSize" class="mr-5">
+                    <select name="quantite" id="productSize" class="mr-5">
                         <option value="value">100g</option>
                         <option value="value">200g</option>
                         <option value="value">300g</option>
