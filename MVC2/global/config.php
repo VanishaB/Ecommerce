@@ -3,7 +3,7 @@
 //	Identifiants pour la bdd. need pour pdo2.php
 define('SQL_DSN', 		'mysql:dbname=site;host=localhost');
 define('SQL_USERNAME', 'root');
-define('SQL_PASSWORD', '');
+define('SQL_PASSWORD', 'root'); // vide sous WAMP
 
 //	Path à utiliser pour accéder aux vues/modeles/libs
 $module = empty($module) ? !empty($_GET['module']) ? $_GET['module'] : 'index' : $module;
