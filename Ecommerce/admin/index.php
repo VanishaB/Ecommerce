@@ -1,11 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../admin.css">
+</head>
+<body>
+    
 <?php
-
 include '../includes/config.php';
 $email = $_SESSION['email'];
 
 
-if(!isset($_SESSION['email']) || $_SESSION['email'] =! 'vani'){
-echo 'mfkm';
+if(!isset ($email) || $email != 'vani'){
 exit;
 }
 
@@ -13,9 +19,10 @@ exit;
 <h1>Bienvenue,
     <?php echo $_SESSION['email']; ?>
 </h1>
+<a href="../index.php">Retour a l'accueil</a>
 
 <a href="?action=add">Ajouter un produit</a>  <!--variable de type get!-->
-<a href="?action=modifyanddelete">Modifier /Supprimer un produit</a>
+<a href="?action=modifyanddelete">Modifier /Supprimer un produit</a><br/>
 
 
 <?php
@@ -71,7 +78,7 @@ $insert = $db->prepare("INSERT INTO products (title, description, price,category
 
 
 <form enctype="multipart/form-data" action="index.php?action=add" method="post">
-<h3>Titre produit</h3>
+    <h3>Titre produit</h3>
     <input type="text" name="title"/>
     <h3>Description du produit:</h3>
     <textarea type="text" name="description"></textarea> <!--formulaire produit!-->
@@ -82,7 +89,7 @@ $insert = $db->prepare("INSERT INTO products (title, description, price,category
     <h3> Importer une image</h3>
     <input type="file" name="avatar"/><br/><br/>
     <input type="submit" name="submit"/>
-    </form>
+</form>
 
 
       <?php
@@ -94,7 +101,7 @@ $insert = $db->prepare("INSERT INTO products (title, description, price,category
         while ($s=$select->fetch(PDO::FETCH_OBJ)){
             echo $s->title;
 ?>
-<a href="?action=modify&amp;id=<?php echo $s->id; ?>" > Modifier  </a> 
+<br/><a href="?action=modify&amp;id=<?php echo $s->id; ?>" > Modifier  </a> 
 <a href="?action=delete&amp;id=<?php echo $s->id; ?>" > X </a> <br/> <br/>
 <?php
         }
@@ -153,4 +160,5 @@ $insert = $db->prepare("INSERT INTO products (title, description, price,category
     header('location:index.php');
 }
 ?>
- 
+    </body>
+ </html>
