@@ -31,11 +31,11 @@ $select = $db ->prepare("SELECT * FROM products");
     <title>E-commerce Mediplantes</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="../front/templates/img/core-img/favicon.ico">
+    <link rel="icon" href="front/templates/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="../front/templates/css/core-style.css">
-    <link rel="stylesheet" href="../front/templates/css/style.css">
+    <link rel="stylesheet" href="front/templates/css/core-style.css">
+    <link rel="stylesheet" href="front/templates/css/style.css">
 
 </head>
 
@@ -46,7 +46,7 @@ $select = $db ->prepare("SELECT * FROM products");
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="../global/accueil.php"><img src="../front/templates/img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="global/accueil.php"><img src="front/templates/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -93,8 +93,8 @@ $select = $db ->prepare("SELECT * FROM products");
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="../global/accueil.php">Accueil</a></li>
-                                    <li><a href="../global/allproducts.php">Produits</a></li>
+                                    <li><a href="global/accueil.php">Accueil</a></li>
+                                    <li><a href="global/allproducts.php">Produits</a></li>
                                     <li><a href="">Blog</a></li>
                                 </ul>
                             </li>
@@ -117,15 +117,15 @@ $select = $db ->prepare("SELECT * FROM products");
                 </div>
                 <!-- Favorite Area -->
                 <div class="favourite-area">
-                    <a href="#"><img src="../front/templates/img/core-img/heart.svg" alt=""></a>
+                    <a href="#"><img src="front/templates/img/core-img/heart.svg" alt=""></a>
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">
-                    <a href="#"><img src="../front/templates/img/core-img/user.svg" alt=""></a>
+                    <a href="#"><img src="front/templates/img/core-img/user.svg" alt=""></a>
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    <a href="#" id="essenceCartBtn"><img src="front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
                 </div>
             </div>
 
@@ -140,7 +140,7 @@ $select = $db ->prepare("SELECT * FROM products");
 
         <!-- Cart Button -->
         <div class="cart-button">
-            <a href="#" id="rightSideCart"><img src="../front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
+            <a href="#" id="rightSideCart"><img src="front/templates/img/core-img/bag.svg" alt=""> <span>3</span></a>
         </div>
 
         <div class="cart-content d-flex">
@@ -150,7 +150,7 @@ $select = $db ->prepare("SELECT * FROM products");
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/absynth.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/absynth.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -165,7 +165,7 @@ $select = $db ->prepare("SELECT * FROM products");
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/bleuet-petales-bio.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -180,7 +180,7 @@ $select = $db ->prepare("SELECT * FROM products");
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="../front/templates/img/images/resine.jpg" class="cart-thumb" alt="">
+                        <img src="front/templates/img/images/resine.jpg" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -213,7 +213,7 @@ $select = $db ->prepare("SELECT * FROM products");
     <!-- ##### Right Side Cart End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb_area bg-img" style="background-image: url(../front/templates/img/images/theplantstore.jpg);">
+    <div class="breadcumb_area bg-img" style="background-image: url(front/templates/img/images/theplantstore.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -369,9 +369,9 @@ $select = $db ->prepare("SELECT * FROM products");
                                 <div class="single-product-wrapper">
                                     <!-- Product Image -->
                                     <div class="product-img">
-                                        <img src="../front/templates/img/images/bleuet-petales-bio.jpg" alt="">
+                                        <img src="front/templates/img/images/bleuet-petales-bio.jpg" alt="">
                                         <!-- Hover Thumb -->
-                                        <img class="hover-img" src="../front/templates/img/images/basilic-flocon-bio.jpg" alt="">
+                                        <img class="hover-img" src="front/templates/img/images/basilic-flocon-bio.jpg" alt="">
 
                                         <!-- Product Badge -->
                                         <div class="product-badge offer-badge">
@@ -431,14 +431,14 @@ $select = $db ->prepare("SELECT * FROM products");
                     <div class="single_widget_area d-flex mb-30">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="#"><img src="../front/templates/img/core-img/favicon.ico" alt=""></a>
+                            <a href="#"><img src="front/templates/img/core-img/favicon.ico" alt=""></a>
                         </div>
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="shop.html">Boutique</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="accueil.php">Boutique</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -502,17 +502,17 @@ $select = $db ->prepare("SELECT * FROM products");
     <!-- ##### Footer Area End ##### -->
 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="../front/templates/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="front/templates/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="../front/templates/js/popper.min.js"></script>
+    <script src="front/templates/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="../front/templates/js/bootstrap.min.js"></script>
+    <script src="front/templates/js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="../front/templates/js/plugins.js"></script>
+    <script src="front/templates/js/plugins.js"></script>
     <!-- Classy Nav js -->
-    <script src="../front/templates/js/classy-nav.min.js"></script>
+    <script src="front/templates/js/classy-nav.min.js"></script>
     <!-- Active js -->
-    <script src="../front/templates/js/active.js"></script>
+    <script src="front/templates/js/active.js"></script>
 
 </body>
 

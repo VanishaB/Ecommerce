@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 
@@ -6,17 +5,17 @@ $user = 'vani';
 $password_defini = 'vani';
 
 if(isset($_POST['submit'])){
-    
+
     $username = $_POST['username'];
     $password = $_POST['password'];
-    
+
     if($username&&$password){
-        
+
    if($username==$user&&$password==$password_defini){
-       
+
        $_SESSION['username']=$username;
        header('Location:../global/admin.php');
-       
+
    }else{
         echo"idd errone";
     }
